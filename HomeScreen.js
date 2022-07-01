@@ -23,6 +23,7 @@ export default function HomeScreen({navigation}) {
     const billing =()=>{
       if (bill) {
         setMoney(billings)
+        setBill(false)
       }
     }
 

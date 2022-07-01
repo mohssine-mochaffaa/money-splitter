@@ -33,9 +33,10 @@ const loaded = async ()=>{
 }
 
 
-loaded();
+useEffect(()=>{
+  loaded();
 
-
+},[])
 
     useEffect(()=>{
         const type = route.params.type

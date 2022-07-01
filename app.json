@@ -35,7 +35,8 @@
       },
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-9175158862258817~3278539842"
-      }
+      },
+      "package": "com.mohssine.moneysplitter"
     },
     "web": {
       "favicon": "./assets/favicon.png"
